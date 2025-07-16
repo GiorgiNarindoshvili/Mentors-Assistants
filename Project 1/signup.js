@@ -1,8 +1,9 @@
 const form = document.getElementById("form1")
+const buttonsin = document.getElementById("signaa")
 
 
 
-form.addEventListener('click', (e)=>{
+buttonsin.addEventListener('click', (e)=>{
     e.preventDefault()
     const name1 = form.elements.name
     const lastname = form.elements.lastname
