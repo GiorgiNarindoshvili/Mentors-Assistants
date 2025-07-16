@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Mono&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Libertus Mono", sans-serif;
+}
+
+body{
+    background-color: rgb(231, 231, 231);
+}
+
+#mainnavbar{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 2px 2px rgb(87, 87, 87);
+    position: fixed;
+}
+
+#home{
+    text-decoration: none;
+    color: black;
+    padding-top: 25px;
+}
+#contact{
+    text-decoration: none;
+    color: black;
+    padding-top: 25px;
+}
+#about{
+    text-decoration: none;
+    color: black;
+    padding-top: 25px;
+}
+#mainnavbar img{
+   width: 150px; 
+}
+
+#sign{
+    border: none;
+    background-color: black;
+    width: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 50px;
+    font-weight: 700;
+    color: white;
+    transition: 0.4s;
+    border-radius: 5px;
+
+}
+#sign a{
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+#button{
+    padding-top: 10px;
+}
+
+
+#sign a:hover{
+    
+    color: black;
+}
+
+#sign:hover{
+    background-color: white;
+    color: black;
+    width: 200px;
+    height: 55px;
+}
+
+
+#form{
+    padding-top: 200px;
+    padding-left: 350px;
+}
+
+
+#form11{
+    background-color: white;
+    height: 470px;
+    width: 600px;
+    border-radius: 10px;
+    padding-left: 40px;
+    
+}
+#form1{
+    padding-top: 30px;
+}
+input[type="text"]{
+    width: 500px;
+    padding-left: 30px;
+    height: 50px;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 5px;
+}
+#inf1{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+input[type="date"]{
+    width: 500px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid black;
+    padding-left: 30px;
+}
+
+input[type="email"]{
+    width: 500px;
+    padding-left: 30px;
+    height: 50px;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 5px;
+}
+
+#chechbox{
+    padding-top: 10px;
+}
+
+#signaa{
+    background-color: black;
+    color: rgb(236, 236, 236);
+    border: none;
+    width: 530px;
+    margin-top: 30px;
+    height: 40px;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+
+#signaa:hover{
+    background-color: rgb(236, 236, 236);
+    color: black;
+}
