@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libertinus+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Libertinus Sans", sans-serif;
+}
+
+
+
+#mainnav{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(7, 224, 224);
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+#mainnav a{
+    text-decoration: none;
+    color: black;
+    
+    
+
+}
+
+#navdiv1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    
+}
+
+#menu1{
+    display: none;
+    width: 25px;
+    height: 25px;
+    margin-top: 25px;
+    margin-left: -10px;
+}
+
+@media(max-width: 430px){
+    #navdiv1{
+        display: none;
+
+    }    
+    #menu1{
+        display: block;
+    }
+
+}
+#searchbar{
+    
+    margin-top: 20px;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding-left: 30px;
+}
+
+#srch{
+    display: flex;
+    gap: 15px;
+    margin-left: -5px;
+}
+
+#srch img{
+    margin-top: 30px;
+    margin-left: -5px;
+}
+
+
+#burgerimg{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#burgerimg img{
+    width: 100%;
+    
+}
+
+#burger{
+    font-family: "Qwitcher Grypen", sans-serif;
+    color: white;
+    margin-top: -130px;
+    margin-left: 10px;
+    font-size: 50px;
+    
+}
+
+
+
+#title{
+    margin-top: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+
+}
+
+#maindiv{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+    gap: 20px;
+    
+}
+
+.maindishes{
+    border: 1px solid black;
+    box-shadow: 3px 3px 3px rgb(27, 27, 27);
+    
+}
+
+.maindishes img{
+    width: 100%;
+}
+
+
+@media (max-width: 430px){
+    #maindiv{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+#mainfooter{
+
+    width: 100%;
+    height: 230px;
+    background-color: rgb(7, 224, 224);
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    
+}
+.opening{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.so{
+    display: flex;
+    gap: 10px;
+    padding-top: 20px;
+}
+
+#tt{
+    margin-left: -15px;
+}
+
+#fb{
+    margin-left: -1px;
+}
